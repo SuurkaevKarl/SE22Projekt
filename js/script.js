@@ -1,0 +1,1 @@
+// Tühi fail struktuuri näitamiseks
