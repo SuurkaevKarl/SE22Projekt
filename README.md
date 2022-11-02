@@ -8,7 +8,8 @@ Projekt koosneb järgnevatest lehtedest:
 - under.html, kuhu suunatakse kui KMI alla normi
 
 Failipuu struktuur:
-- js *(kaust mille sisse tulevad javascript failid)*
+- js *(skriptide kaust)*
 - res *(resursside kaust)*
     - css *(CSS kaust, üks üldine fail + iga lehe enda oma vastavalt vajadusele)*
-- ... *(html failid ise + README)*
+    - ... *(muud resurssid nagu nt pildid)*
+- ... *(html failid + README)*
