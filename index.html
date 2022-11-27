@@ -6,9 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="res/css/style.css" />
     <link rel="icon" href="res/icon.png" />
+    <script src="js/calc.js"></script>
     <title>KMI kalkulaator</title>
 </head>
 <body>
-    
+    <div class="textContainer">
+        <p class="descriptiveText">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quia minima aliquam dolores similique quam, dolorem autem ullam et corrupti illum provident velit itaque vitae omnis. Omnis harum reiciendis iure!
+        </p>
+    </div>
+    <div id="calculatorContainer">
+        <form>
+            <label for="weight">Kaal (kg)</label><br>
+            <input id="weight" type="number"><br>
+            <label for="height">Pikkus (cm)</label><br>
+            <input id="height" type="number"><br>
+            <div id="submitContainer">
+                <button type="button" onclick="calcKMI()">Arvuta</button>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
