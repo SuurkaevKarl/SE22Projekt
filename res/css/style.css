@@ -1,4 +1,3 @@
-/* Tühi fail struktuuri näitamiseks */
 /* Siia tulevad stiili muudatused mis hõlmavad kõiki lehti */
 
 :root {
@@ -7,41 +6,23 @@
     --calc-container-bg-color: rgb(75, 75, 75);
 }
 
+h1,h2 {
+    text-align: center;
+}
+
 .textContainer {
     margin: 2%;
     padding: 4%;
     align-self: center;
     align-items: center;
     align-content: center;
-    text-align: center;
     background-color: var(--text-container-bg-color);
 }
 
-#calculatorContainer {
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    justify-self: center;
-    padding: 4%;
-    margin: auto;
-    max-width: 200px;
-    align-self: center;
-    align-items: center;
-    align-content: center;
-    background-color: var(--calc-container-bg-color);
-}
-
-label, input {
-    display: flex;
-    align-self: center;
-    justify-content: center;
-}
-
-#submitContainer {
+.descriptiveText {
     text-align: center;
 }
 
-#descriptiveText {
+.infoText {
     text-align: justify;
-    background-color: var(--text-container-bg-color);
 }
