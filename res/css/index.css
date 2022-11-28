@@ -1,11 +1,5 @@
 /* Siia tulevad stiili muudatused mis hõlmavad esilehte ehk kalkulaatorit */
 
-:root {
-    --main-bg-color: white;
-    --text-container-bg-color: rgb(133, 133, 133);
-    --calc-container-bg-color: rgb(75, 75, 75);
-}
-
 #calculatorContainer {
     display: flex;
     justify-content: center;
