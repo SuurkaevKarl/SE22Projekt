@@ -9,7 +9,7 @@ function calcKMI() {
         result = weight / Math.pow(height/100, 2);
         if (result <= 0.0) {
             throw 'Invalid result!';
-        } else if (result >= 18.5 && result <= 30.0) {
+        } else if (result >= 18.5 && result <= 25.0) {
             alert("Teie kehamassiindeks on " + Math.round(result * 100) / 100 + " mis on normide piires.");
         } else if (result < 18.5) {
             console.log(location.hostname + "/under.html?")
@@ -19,6 +19,6 @@ function calcKMI() {
             window.location.assign("/over.html");
         }
     } catch (error) {
-        alert("Antud sisenditega ei saanud kehamassiindeksit arvutada. Palun proovige uuesti!");
+        alert("Antud sisenditega ei saanud kehamassiindeksit arvutada.\n\nPalun proovige uuesti!");
     }
 }

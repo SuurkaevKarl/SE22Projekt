@@ -1,0 +1,25 @@
+/* Siia tulevad stiili muudatused mis hõlmavad esilehte ehk kalkulaatorit */
+
+#calculatorContainer {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    padding: 4%;
+    margin: auto;
+    max-width: 200px;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    background-color: var(--calc-container-bg-color);
+}
+
+label, input {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+#submitContainer {
+    text-align: center;
+}
