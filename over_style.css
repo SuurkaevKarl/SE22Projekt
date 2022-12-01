@@ -6,15 +6,35 @@ body{
   height: 100vh;
   background: linear-gradient(
     to bottom,
-    #D5D8DC 0%,
-    #D5D8DC 15%,
-    #D6EAF8 20%,
-    #D6EAF8 80%,
-    #D5D8DC 85%,
-    #D5D8DC 100%
+    #EAECEE  0%,
+    #EAECEE  25%,
+    #D0D3D4 25%,
+    #D0D3D4 75%,
+    #EAECEE  75%,
+    #EAECEE 100%
   );
 }
-h1 {position:absolute; left: 300px; top: 100px; font-family:Verdana, Geneva, Tahoma, sans-serif;
+h1 {position:absolute; left: 300px; top: 150px; font-family:Lato;
   font-size: xx-large;
   font-style: bold;}
-  h2 {position:absolute; left: 300px; top: 150px}
+  h2 {position:absolute; left: 300px; top: 350px; font-family: Lato; font-size: larger;}
+
+  .button 
+{ padding: 8px 25px;
+  font-family: Lato;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  color:black;
+  background-color:#D0D3D4;
+  border-radius: 20px;
+  box-shadow: 0 10px #999;
+}
+
+.button:hover {background-color:#EAECEE}
+
+.button:active {
+  background-color: #007095;
+  box-shadow: 0 5px rgb(25, 25, 25);
+  transform: translateY(5px);
+}
