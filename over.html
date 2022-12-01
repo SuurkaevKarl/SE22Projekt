@@ -4,20 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="over_style.css" />
+    <link rel="stylesheet" type="text/css" href="res/css/over_style.css" />
     <link rel="icon" href="res/icon.png" />
     <title>KMI kalkulaator - ülekaal</title>
 </head>
 <body>
-<h1>Sinu KMI on ... </h1>
+<h1>Sinu KMI on ... <span id="kmi"></span></h1>
 <h2>Liigne kehakaal võib tõsta erinevate terviseprobleemide, näiteks diabeedi,<br/>
     <br/>südamehaiguste ja insuldi riski. Tervislikuma kehakaalu saavutamine<br/>
     <br/>ja selle hoidmine aitab pikemas perspektiivis vältida paljusid meditsiinilisi<br/>
     <br/>probleeme ning pikendada sinu kvaliteetset eluiga. Kanna enda eest hoolt.</h2>
     
-    <div style = "position:absolute; left:1900px; top:880px;">
-        <button class="button">Tagasi</button>
-     </div>
-    
+    <div style = "position:absolute; left:1900px; top:900px;">
+        <a: visited: "text-decoration: none"; href=index.html button class="button">Tagasi</a:>
+    </div>
+<script>const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const KMI = urlParams.get('kmi');
+        document.getElementById('kmi').innerHTML = 28;
+</script>  
 </body>
 </html>
