@@ -1,4 +1,20 @@
-h1 {position:absolute; left: 100px; top: 100px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+*{padding: 0;
+  margin: 0;
+}
+
+body{
+  height: 100vh;
+  background: linear-gradient(
+    to bottom,
+    #D5D8DC 0%,
+    #D5D8DC 15%,
+    #D6EAF8 20%,
+    #D6EAF8 80%,
+    #D5D8DC 85%,
+    #D5D8DC 100%
+  );
+}
+h1 {position:absolute; left: 300px; top: 100px; font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size: xx-large;
-  font-style: italic;}
-  h2 {position:absolute; left: 100px; top: 150px}
+  font-style: bold;}
+  h2 {position:absolute; left: 300px; top: 150px}
