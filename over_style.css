@@ -15,14 +15,27 @@ body{
   );
 }
 
+.kass {
+  position:absolute; 
+  left: 30px; 
+  top: 20px;
+  width: 200px;
+}
 
 
-h1 {position:absolute; left: 300px; top: 150px; font-family:Lato;
+h1 {position:absolute; left: 300px; top: 150px; 
+  font-family:Lato;
   font-size: xx-large;
-  font-style: bold;}
-  h2 {position:absolute; left: 300px; top: 350px; font-family: Lato; font-size: larger;}
+  font-style: bold;
+}
 
-  .button 
+h2 {position:absolute; 
+  left: 300px; top: 350px; 
+  font-family: Lato; 
+  font-size: larger;
+}
+
+.button 
 { padding: 8px 25px;
   font-family: Lato;
   font-size: 20px;
