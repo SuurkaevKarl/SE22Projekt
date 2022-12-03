@@ -1,0 +1,34 @@
+*{padding: 0;
+    margin: 0;
+  }
+  
+  body{
+    height: 100vh;
+    background: linear-gradient(
+      to bottom,
+      #EAECEE  0%,
+      #EAECEE  25%,
+      #D0D3D4 25%,
+      #D0D3D4 75%,
+      #EAECEE  75%,
+      #EAECEE 100%
+    );
+  }
+
+  h1 {position:absolute; left: 300px; top: 150px; 
+    font-family:Lato;
+    font-size: xx-large;
+    font-style: bold;
+  }
+  
+  h2 {position:absolute; 
+    left: 300px; top: 300px; 
+    font-family: Lato; 
+    font-size: larger;
+  }
+
+  .text {
+    width: 800px;
+    text-align: justify;
+    line-height: 30px;
+  }

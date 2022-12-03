@@ -11,6 +11,33 @@
     <title>KMI kalkulaator</title>
 </head>
 <body>
+    <div class="headcont">
+        <div class="headerContainer">
+            <div class="headerContent">
+                <img class="headerLogo" src="res/icon.png">
+                <h1 class="headerTitle">Kehamassiindeksi kalkulaator</h1>
+                <div class="empty"></div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div id="calculatorContainer">
+        <form>
+            <div class="calc">
+                <label for="weight"><div class="calcLabel">Kaal (kg)</div></label><br>
+                <input class="calcInput" id="weight" type="number"><br>
+            </div>
+            <div class="calc">
+                <label for="height"><div class="calcLabel">Pikkus (cm)</div></label><br>
+                <input class="calcInput" id="height" type="number"><br>
+            </div>
+            <div id="submitContainer">
+                <button class="calcButton" type="button" onclick="calcKMI()">Arvuta</button>
+            </div>
+        </form>
+    </div>
+
     <div class="textContainer">
         <h1>Kehamassiindeksi kalkulaator</h1>
         <p class="descriptiveText">
@@ -28,16 +55,6 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo doloremque vitae voluptates reprehenderit ea earum, fugit saepe tempore ad sed adipisci voluptatibus possimus. Expedita ut animi, ex vel consectetur mollitia.
         </p>
     </div>
-    <div id="calculatorContainer">
-        <form>
-            <label for="weight">Kaal (kg)</label><br>
-            <input id="weight" type="number"><br>
-            <label for="height">Pikkus (cm)</label><br>
-            <input id="height" type="number"><br>
-            <div id="submitContainer">
-                <button type="button" onclick="calcKMI()">Arvuta</button>
-            </div>
-        </form>
-    </div>
+
 </body>
 </html>
