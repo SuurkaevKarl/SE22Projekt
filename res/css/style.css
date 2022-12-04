@@ -30,4 +30,5 @@ h1,h2 {
 
 .infoText {
     text-align: justify;
+    line-height: 30px;
 }

@@ -1,111 +1,111 @@
-/* Siia tulevad stiili muudatused mis hõlmavad esilehte ehk kalkulaatorit */
+    /* Siia tulevad stiili muudatused mis hõlmavad esilehte ehk kalkulaatorit */
 
-body {
-    margin-bottom: 0;
-}
+    body {
+        margin-bottom: 0;
+    }
 
-.headcont {
-    padding-top: 20px;
-    display: flex;
-    justify-content: center;
-    padding-bottom: 75px;
-    margin-left: 4%;
-    margin-right: 4%;
-}
+    .headcont {
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 75px;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
 
-.headerContainer {
-    display: flex;
-    height: 100px;
-    width: 90%;
-    background-color: grey;
-    border-style: solid;
-    border-radius: 10px;
-    align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
-}
+    .headerContainer {
+        display: flex;
+        height: 100px;
+        width: 90%;
+        background-color: grey;
+        border-style: solid;
+        border-radius: 10px;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 
-.headerContent {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-}
+    .headerContent {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
 
-.headerTitle {
-    font-size: 40px;
-    font-family: Lato;
+    .headerTitle {
+        font-size: 40px;
+        font-family: Lato;
 
-}
+    }
 
-.headerLogo {
-    height: 80px;
-}
+    .headerLogo {
+        height: 80px;
+    }
 
-.empty {
-    width: 60px;
-    height: 60px;
-}
+    .empty {
+        width: 60px;
+        height: 60px;
+    }
 
-#calculatorContainer {
-    height: 270px;
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    justify-self: center;
-    padding: 4%;
-    margin: auto;
-    max-width: 200px;
-    align-self: center;
-    align-items: center;
-    align-content: center;
-    background-color: var(--calc-container-bg-color);
-    border-style: solid;
-    border-radius: 10px;
-}
+    #calculatorContainer {
+        height: 270px;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+        padding: 4%;
+        margin: auto;
+        max-width: 200px;
+        align-self: center;
+        align-items: center;
+        align-content: center;
+        background-color: var(--calc-container-bg-color);
+        border-style: solid;
+        border-radius: 10px;
+    }
 
-label, input {
-    display: flex;
-    align-self: center;
-    justify-content: center;
-}
+    label, input {
+        display: flex;
+        align-self: center;
+        justify-content: center;
+    }
 
-#submitContainer {
-    text-align: center;
-}
+    #submitContainer {
+        text-align: center;
+    }
 
-.calcButton {
-    height: 40px;
-    width: 120px;
-    border-style: solid;
-    border-radius: 20px;
-    font-size: 18px;
-}
+    .calcButton {
+        height: 40px;
+        width: 120px;
+        border-style: solid;
+        border-radius: 20px;
+        font-size: 18px;
+    }
 
-.calcButton:hover{
-    width: 130px;
-    cursor: pointer;
-    text-decoration-line: underline;
-}
+    .calcButton:hover{
+        width: 130px;
+        cursor: pointer;
+        text-decoration-line: underline;
+    }
 
-.calcButton:active{
-    opacity: 0.25;
-}
+    .calcButton:active{
+        opacity: 0.25;
+    }
 
-.calcLabel {
-    font-size: 22px;
+    .calcLabel {
+        font-size: 22px;
 
-}
+    }
 
-.calcInput {
-    height: 30px;
-    border-style: solid;
-    border-radius: 5px;
-    width: 200px;
-    font-size: 18px;
-    font-family: Lato;
-}
+    .calcInput {
+        height: 30px;
+        border-style: solid;
+        border-radius: 5px;
+        width: 200px;
+        font-size: 18px;
+        font-family: Lato;
+    }
 
-.calc {
-    padding-bottom: 30px;
-}
+    .calc {
+        padding-bottom: 30px;
+    }
