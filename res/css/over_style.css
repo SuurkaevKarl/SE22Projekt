@@ -20,7 +20,14 @@ h1 {position:absolute; left: 300px; top: 150px; font-family:Lato;
   font-style: bold;}
   h2 {position:absolute; left: 300px; top: 350px; font-family: Lato; font-size: larger;}
 
-  .button 
+.pilt {position: absolute;
+  left: 1200px;
+  top: 185px; 
+  width: 575px; 
+  border: 1px solid #555"
+}
+
+.button 
 { padding: 8px 25px;
   font-family: Lato;
   font-size: 20px;
