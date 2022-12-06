@@ -33,6 +33,12 @@ h2 {position:absolute; left: 300px; top: 350px; font-family: Lato; font-size: la
   border: 1px solid #555"
 }
 
+.text {
+  width: 800px;
+  text-align: justify;
+  line-height: 30px;
+}
+
 .button 
 { padding: 8px 25px;
   font-family: Lato;

@@ -26,6 +26,13 @@ h2 {position:absolute;
   font-size: larger;
 }
 
+.pilt {position: absolute;
+  left: 1200px;
+  top: 185px; 
+  width: 575px; 
+  border: 1px solid #555"
+}
+
 .text {
   width: 800px;
   text-align: justify;
