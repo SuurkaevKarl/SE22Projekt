@@ -16,15 +16,27 @@ body{
 }
 
 h1 {position:absolute; left: 300px; top: 150px; font-family:Lato;
-  font-size: xx-large;
-  font-style: bold;}
-  h2 {position:absolute; left: 300px; top: 350px; font-family: Lato; font-size: larger;}
+  font-size: xx-large;}
+h2 {position:absolute; left: 300px; top: 350px; font-family: Lato; font-size: larger;}
+
+.pilt {position: absolute;
+  left: 1200px;
+  top: 185px; 
+  width: 575px; 
+  border: 1px solid #555
+}
 
 .pilt {position: absolute;
   left: 1200px;
   top: 185px; 
   width: 575px; 
   border: 1px solid #555"
+}
+
+.text {
+  width: 800px;
+  text-align: justify;
+  line-height: 30px;
 }
 
 .button 
@@ -37,6 +49,7 @@ h1 {position:absolute; left: 300px; top: 150px; font-family:Lato;
   background-color:#D0D3D4;
   border-radius: 20px;
   box-shadow: 0 10px #999;
+  text-decoration: none;
 }
 
 .button:hover {background-color:#EAECEE}
@@ -46,3 +59,7 @@ h1 {position:absolute; left: 300px; top: 150px; font-family:Lato;
   box-shadow: 0 5px rgb(25, 25, 25);
   transform: translateY(5px);
 }
+
+.button:visited{
+  text-decoration: none;
+  }

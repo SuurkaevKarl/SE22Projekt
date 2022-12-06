@@ -14,10 +14,14 @@ function calcKMI() {
             alert("Teie kehamassiindeks on " + result + " mis on normide piires.");
         } else if (result < 18.5) {
             console.log(location.hostname + "/under.html?")
-            window.location.assign("/under.html?kmi="+result);
+            //window.location.assign("/under.html?kmi="+result); // See on originaalne, mis serveris hästi ei toimi
+            //window.location.assign("/~normant/under.html?kmi="+result); // See on hard-coded variant, mis peaks toimima ainult Normani UT serveris
+            window.location.assign(document.URL.replace("index.html", "") + "under.html?kmi="+result); // See on teistsugune dünaamiline variant, mis peaks toimima kõige paremini
         } else {
             console.log(location.hostname + "/over.html?")
-            window.location.assign("/over.html?kmi="+result);
+            //window.location.assign("/over.html?kmi="+result); // See on originaalne, mis serveris hästi ei toimi
+            //window.location.assign("/~normant/under.html?kmi="+result); // See on hard-coded variant, mis peaks toimima ainult Normani UT serveris
+            window.location.assign(document.URL.replace("index.html", "") + "over.html?kmi="+result); // See on teistsugune dünaamiline variant, mis peaks toimima kõige paremini
         }
     } catch (error) {
         alert("Antud sisenditega ei saanud kehamassiindeksit arvutada.\n\nPalun proovige uuesti!");
